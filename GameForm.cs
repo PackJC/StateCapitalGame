@@ -34,14 +34,6 @@ namespace Project5
         /// </summary>
         public static SortedDictionary<String, String> Game = new SortedDictionary<String, String>();
         /// <summary>
-        /// Create states array for each state
-        /// </summary>
-        public static String[] States = new String[50];
-        /// <summary>
-        /// Create capitals array for each capital
-        /// </summary>
-        public static String[] Capitals = new String[50];
-        /// <summary>
         /// the amount gotten correct
         /// </summary>
         public static int CorrectAmt = 0;
@@ -81,17 +73,14 @@ namespace Project5
         {
             int counter = 0; //used for arrays
             String strIn = String.Empty; //string that will be coming in
-            StreamReader reader = new StreamReader(@"/StateGameProject/State Data/states.txt");
-            //while reader still has data
+            StreamReader reader = new StreamReader(@"C:/Users/ECHO/Desktop/StateGameProject/State Data/states.txt");
             while (reader.Peek() != -1)
             {
                 strIn = reader.ReadLine(); 
                 String[] fields = strIn.Split(','); //split data using ,
                 Capital = fields[0]; //add in key from fields
                 State = fields[1].Trim(); //add in value from fields
-                Capitals[counter] = Capital; //assign in array
-                States[counter] = State; //assin in array
-                Game.Add(Capital, State); //add in key and value
+                Game.Add(State, Capital); //add in key and value
                 counter++; //update counter used for arrays
             }
             reader.Close(); //close file read
@@ -114,16 +103,20 @@ namespace Project5
             ranIndex = ran.Next(49);    //get new random number
             AttemptsBox.Text = AttemptAmt.ToString(); //update attempts box
             CorrectBox.Text = CorrectAmt.ToString(); //update correct box
-            foreach(String Capital in Game.Keys)
+            foreach(String Capital in Game.Values)
             {
                 CapitalBox.Items.Add(Capital);//add each capital to listbox 
             }
-            StateBox.Text = Game[Capitals[ranIndex]]; //display first state
+            //Take all the keys, put into a list, then draw random limited by Count()
+            StateBox.Text = Game.Keys.ToList()[ran.Next(Game.Count)];
             String state = StateBox.Text.Trim();
             state = state.Replace(" ", "");
-            StatePicture.ImageLocation = @"StateGameProject\State Pictures\" + state + "State.jpg";
+            StatePicture.ImageLocation = @"C:/Users/ECHO/Desktop/StateGameProject/State Pictures/" + state + "State.jpg";
             Timer.Start();  //start timer and game
         }
+
+ 
+
         /// <summary>
         /// when next button is clicked, update boxes and restart timer
         /// </summary>
@@ -133,30 +126,39 @@ namespace Project5
         {
             try
             {
-                //If game contains the key related to the value
-                if (Game[ItemSelected].Contains(States[ranIndex]))
+                if (Game[StateBox.Text] == ItemSelected)
                 {
                     CorrectAmt++;
+                    AttemptAmt++;
                     CorrectBox.Text = Convert.ToString(CorrectAmt);
+                    AttemptsBox.Text = Convert.ToString(AttemptAmt);
+                    Game.Remove(StateBox.Text);
+                    CapitalBox.Items.Remove(ItemSelected);
+
                 }
                 else
                 {
                     AttemptAmt++;
                     AttemptsBox.Text = Convert.ToString(AttemptAmt);
+                    MessageBox.Show("The correct answer is: " + Game[StateBox.Text].ToString());
                 }
+                
             }
             catch
             {
                 MessageBox.Show("Please Select a Capital first!");
             }
+
+
             CapitalBox.Enabled = true; //enable controls again
-            ranIndex = ran.Next(49); //get new random number
-            StateBox.Text = Game[Capitals[ranIndex]]; //display new state
+            StateBox.Text = Game.Keys.ToList()[ran.Next(Game.Count)];
             String state = StateBox.Text;
             state = state.Replace(" ", "");
-            StatePicture.ImageLocation = "C:/Users/ECHO/Desktop/Project5/State Pictures/" + state + "State.jpg";
+            StatePicture.ImageLocation = "C:/Users/ECHO/Desktop/StateGameProject/State Pictures/" + state + "State.jpg";
             timeLeft = 15;  //reset timer
             Timer.Start();
+
+
 
         }
         /// <summary>
@@ -168,24 +170,6 @@ namespace Project5
         {
 
             ItemSelected = (String)CapitalBox.SelectedItem; //get the item selected from capital box
-
-        }
-        /// <summary>
-        /// When Attempts box changes
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void AttemptsBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        /// <summary>
-        /// when state box changes
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void StateBox_TextChanged(object sender, EventArgs e)
-        {
 
         }
         /// <summary>
@@ -214,27 +198,16 @@ namespace Project5
             }
         }
         /// <summary>
-        /// when text is changed
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        /// <summary>
         /// when exit button is clicked
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void EndGame_Click(object sender, EventArgs e)
         {
-                int correct = Convert.ToInt32(CorrectBox.Text);
-                int attempted = Convert.ToInt32(AttemptsBox.Text);
-                double percentage = (8 / 12);
-            double answer = percentage * 100;
-            string convert = answer.ToString();
-            string answerStr = "Thank you for trying your luck at the State Capital Matching Game.\nYour score was " + convert + "% on " + AttemptAmt + " attempts.";
+            decimal correct = Convert.ToInt32(CorrectBox.Text);
+            decimal attempted = Convert.ToInt32(AttemptsBox.Text);
+            decimal answer = correct / attempted * 100;
+            string answerStr = "Thank you for trying your luck at the State Capital Matching Game.\nYour score was " + Math.Round(answer, 2) + "% on " + AttemptAmt + " attempts.";
             try
             {
                 MessageBox.Show(answerStr);

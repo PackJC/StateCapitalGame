@@ -75,7 +75,6 @@
             this.Email_Label.Size = new System.Drawing.Size(197, 24);
             this.Email_Label.TabIndex = 4;
             this.Email_Label.Text = "PackJC@etsu.edu";
-            this.Email_Label.Click += new System.EventHandler(this.label4_Click);
             // 
             // label1
             // 

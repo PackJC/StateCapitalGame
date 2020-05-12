@@ -63,12 +63,5 @@ namespace Project5
                 this.Hide(); //hide splash
             }
         }
-        /// <summary>
-        /// label click not used
-        /// </summary>
-        private void label4_Click(object sender, EventArgs e)
-        {
-            //void
-        }
     }
 }

@@ -114,7 +114,7 @@ namespace Project5
             // 
             this.NextButton.Location = new System.Drawing.Point(20, 265);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(105, 23);
+            this.NextButton.Size = new System.Drawing.Size(105, 32);
             this.NextButton.TabIndex = 5;
             this.NextButton.Text = "Next Question";
             this.NextButton.UseVisualStyleBackColor = true;
@@ -124,7 +124,7 @@ namespace Project5
             // 
             this.EndGame.Location = new System.Drawing.Point(196, 265);
             this.EndGame.Name = "EndGame";
-            this.EndGame.Size = new System.Drawing.Size(105, 23);
+            this.EndGame.Size = new System.Drawing.Size(105, 32);
             this.EndGame.TabIndex = 6;
             this.EndGame.Text = "End Game";
             this.EndGame.UseVisualStyleBackColor = true;
@@ -144,7 +144,6 @@ namespace Project5
             this.TimerBox.Size = new System.Drawing.Size(45, 48);
             this.TimerBox.TabIndex = 9;
             this.TimerBox.Text = "";
-            this.TimerBox.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
             // StateBox
             // 
@@ -155,7 +154,6 @@ namespace Project5
             this.StateBox.Size = new System.Drawing.Size(193, 22);
             this.StateBox.TabIndex = 10;
             this.StateBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.StateBox.TextChanged += new System.EventHandler(this.StateBox_TextChanged);
             // 
             // AttemptsBox
             // 
@@ -165,7 +163,6 @@ namespace Project5
             this.AttemptsBox.Size = new System.Drawing.Size(39, 20);
             this.AttemptsBox.TabIndex = 11;
             this.AttemptsBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.AttemptsBox.TextChanged += new System.EventHandler(this.AttemptsBox_TextChanged);
             // 
             // CorrectBox
             // 
