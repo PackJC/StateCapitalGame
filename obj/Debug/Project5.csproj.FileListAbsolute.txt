@@ -1,0 +1,8 @@
+C:\Users\ECHO\Desktop\Project5\bin\Debug\Project5.exe.config
+C:\Users\ECHO\Desktop\Project5\bin\Debug\Project5.exe
+C:\Users\ECHO\Desktop\Project5\bin\Debug\Project5.pdb
+C:\Users\ECHO\Desktop\Project5\obj\Debug\Project5.Properties.Resources.resources
+C:\Users\ECHO\Desktop\Project5\obj\Debug\Project5.Splash_Screen.resources
+C:\Users\ECHO\Desktop\Project5\obj\Debug\Project5.csproj.GenerateResource.cache
+C:\Users\ECHO\Desktop\Project5\obj\Debug\Project5.exe
+C:\Users\ECHO\Desktop\Project5\obj\Debug\Project5.pdb
