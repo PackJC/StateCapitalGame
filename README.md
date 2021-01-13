@@ -1,7 +1,7 @@
 # State Capital Game
 Learn the capital of each state with this simple game!
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.JPG)
 
 
 Built with .NET Core, this project gives an example of SortedDictionary<T> data structure.
