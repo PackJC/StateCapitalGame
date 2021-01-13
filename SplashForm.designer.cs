@@ -33,7 +33,6 @@
             this.Header_Label = new System.Windows.Forms.Label();
             this.Name_Label = new System.Windows.Forms.Label();
             this.Email_Label = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -76,18 +75,6 @@
             this.Email_Label.TabIndex = 4;
             this.Email_Label.Text = "PackJC@etsu.edu";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label1.Location = new System.Drawing.Point(271, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(226, 22);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Project 5 - State Games";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Project5.Properties.Resources.TennesseeState;
@@ -118,7 +105,6 @@
             this.ClientSize = new System.Drawing.Size(629, 182);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.Email_Label);
             this.Controls.Add(this.Name_Label);
             this.Controls.Add(this.Header_Label);
@@ -126,7 +112,7 @@
             this.Name = "Splash_Screen";
             this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "States Matching Game";
+            this.Text = "Matching State Capitols";
             this.Load += new System.EventHandler(this.Splash_Screen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -140,7 +126,6 @@
         private System.Windows.Forms.Label Header_Label;
         private System.Windows.Forms.Label Name_Label;
         private System.Windows.Forms.Label Email_Label;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
     }

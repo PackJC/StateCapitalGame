@@ -18,3 +18,18 @@ C:\Users\ECHO\Desktop\StateGameProject\obj\Debug\StateGame.csproj.GenerateResour
 C:\Users\ECHO\Desktop\StateGameProject\obj\Debug\Project5.exe
 C:\Users\ECHO\Desktop\StateGameProject\obj\Debug\Project5.pdb
 C:\Users\ECHO\Desktop\StateGameProject\obj\Debug\StateGame.csprojAssemblyReference.cache
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\obj\Debug\Project5.GameForm.resources
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\obj\Debug\Project5.Properties.Resources.resources
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\obj\Debug\Project5.Splash_Screen.resources
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\obj\Debug\StateGame.csproj.GenerateResource.cache
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\obj\Debug\StateGame.csproj.CoreCompileInputs.cache
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\bin\Debug\State Capitol Game.exe.config
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\bin\Debug\State Capitol Game.exe
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\bin\Debug\State Capitol Game.pdb
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\obj\Debug\State Capitol Game.exe
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\obj\Debug\State Capitol Game.pdb
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\bin\Debug\State Capitol Game.exe.manifest
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\bin\Debug\State Capitol Game.application
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\obj\Debug\State Capitol Game.TrustInfo.xml
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\obj\Debug\State Capitol Game.exe.manifest
+C:\Users\ECHO\Documents\GitHub\StateCapitalGame\obj\Debug\State Capitol Game.application

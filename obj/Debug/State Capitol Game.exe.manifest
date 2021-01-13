@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="State Capitol Game.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="State Capitol Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="State Capitol Game.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="State Capitol Game.exe" size="295864">
+      <assemblyIdentity name="State Capitol Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>d735YGznBheFwA19XUYg3LnfFRep7BjG66h0La5PeU0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TkV4oH8EUEN4F5yXfYLDn8ByVasSszmxv02wCAcsnRw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Capitol Game.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Data\states.txt" size="1047">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IGe2y6w6YsvOhrBQbMtS9yNK6tAQ5VzxQbiCnTPMBiE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\AlabamaState.jpg" size="145074">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F8Ji7JSqiIgR2Y4M37UZolYhlCdsi9h44nKM6x4V+ds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\AlaskaState.jpg" size="131859">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VPBkmYGoTyy9+1nDRECbUqpacR/sKfmwV39FNrTG7lo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\ArizonaState.jpg" size="136664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4Bueq5mCM6IzacN5ungwhgOblB9XxOYDnu6Nut0LWDg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\ArkansasState.jpg" size="129020">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1W2RPQFXuHOOsEPylF9agAwtcMtmV3ZZ9CkDxn0RAHc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\CaliforniaState.jpg" size="111515">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>l3uivxFMoW9OGBF00Qns+coGt6v337rUSzS9AhJyHeM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\CapitolLogo.ico" size="109561">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wSbz3+5d5OaYoxoBoGMxqhfoJf4KjbgDj6SqBu+/un4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\ColoradoState.jpg" size="130110">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S428lUPCIB1U48RDvtZ8ERVW5xUMs8TLnJFww9UsAH0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\ConnecticutState.jpg" size="172169">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HM/dDzT5tdeZmHBPdAnvW14OEQaFCK+oceFL/q95tcE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\DelawareState.jpg" size="79332">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jqiFvvTPHSrl59YsZvzkQf+UGwdMwLuXFSj25Njr4Ro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\FloridaState.jpg" size="136069">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xu54jIrsS+glwJ4i+Dx40dAR/4cc69OilB6wtoJw7rQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\GeorgiaState.jpg" size="149803">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2YUdR4VYhIHFhRYnzIRkCEAudqchMLLYgR4cmQ4b37I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\HawaiiState.jpg" size="84428">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IQLFkBgDyk2wIwcN804+TIhgeQPhpIXnq01/r5ji+Gs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\IdahoState.jpg" size="90954">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w/rb7/ZWnRbMaoN7QwxwF/BTL/dbUzkDoaATZ9GaoT0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\IllinoisState.jpg" size="133253">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OldzNA8jwN/Zj8REc5o2sRDNZ41LeyP8K/RIVvJsWSE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\IndianaState.jpg" size="117051">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S2hFJsY/20YBc1ZvCCg36lsaNI3aJJxQ4tf1yqq93ok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\IowaState.jpg" size="101988">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wV2BmPjxWjqLNXKhRCMDTxalOPRvc1iPCakLdGMUbTM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\KansasState.jpg" size="121770">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vwQ4/mTIXvWUf6qNn5ft9zIaiBevTSHHA3ojGB9BcrE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\KentuckyState.jpg" size="117081">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qK+a7wamGFHYFuZiCsoRhJGy5Y93UhIQHi+4AVhrc6g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\LouisianaState.jpg" size="160675">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qosMlnZKUvLVNAGeBz64gTbxERRLLtcBzNiUQn+7cH8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\MaineState.jpg" size="100148">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tVeJyi0b7wVMIKswA26BpBG/VD1rbTiBl6MH675NAnc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\MarylandState.jpg" size="139063">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gI/0xzILpyVtqNmM+s7UexEo/Hk8T7QUsfR2AAcTgeQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\MassachusettsState.jpg" size="153680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sGMO9XU9yaIydmuU0KA9+HE62E1i5ww1iNNSBdw7dzc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\MichiganState.jpg" size="163498">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8b0hqR4WZlIsuZ5ZYFlK2fQdHfc1kfa9nmStv07pC/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\MinnesotaState.jpg" size="155141">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r1oGYLh2rI3WK4feadh4rK1la4jattHsjK/ep4hr0Fs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\MississippiState.jpg" size="123610">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZRH1Qed9cr+t2ZC2i3+z02NTQIPAGFzMpttVVSb/Pns=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\MissouriState.jpg" size="143738">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IsxByWI5HMgBUb4NyiFqMdQ+iJ9246toKLHdFPuEUM8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\MontanaState.jpg" size="160761">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1pF+skiCVE3vJ0idjVvkidxF4tvGSmzTqI0WabCLOjg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\NebraskaState.jpg" size="122306">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>l868+WFKcK1UEVUB5x45/C5myP7DRoIBzxPLqg8w47Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\NevadaState.jpg" size="88258">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yCMV/YQ5zPmx/PzShCrMC0RyJ6IrTrLr1L0fPR+ZVQ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\NewHampshireState.jpg" size="90676">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TJJT7ZoYBjnwLzc8ptwhOWYBiT0t8naeFaXDjthJ7Jo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\NewJerseyState.jpg" size="100295">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KgeOJoJAI1K+OcV715R82Hdna5FSYneXbUWKgPTxPW8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\NewMexicoState.jpg" size="136036">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YGm4PT5FUMlKmeNK3+meiN1PeIsc+LKKyWSxI/Gy0nc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\NewYorkState.jpg" size="147970">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>thfGYqXdKJh70ufv+r5mvFTJXG+95rUJFQB0efRZrOg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\NorthCarolinaState.jpg" size="137018">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wlDmpcbuZ8G5NFGnKHDv4ZSUIojukGsSH3Z3qZY8IEQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\NorthDakotaState.jpg" size="140987">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RbMXRyI+Kry2ppk7LO3/NnCGjJW/K7JWlp5F4QEhPyQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\OhioState.jpg" size="126776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rG/XpxyLs0GkklqAaKhvT7Gta2q1C6RKBU8/SOw58qQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\OklahomaState.jpg" size="136726">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nS8imzl42ESsfaVrhImhdpknDXHUGxYCL0nkwosOhEE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\OregonState.jpg" size="123075">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iERdtT6YJOmYpP6J02uo9UtByo0/AGKwYh6bstu/xRM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\PennsylvaniaState.jpg" size="178200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zsCOiLv7NJ/CT/50lgktWiIzeIYZWtOK3xaWv1XFjhI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\RhodeIslandState.jpg" size="78538">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8cMb+nN0ZFh4ogYCUYPxvY/NHeZcadMOBvsvgySygSE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\SouthCarolinaState.jpg" size="116045">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dyPgJ3IQZIhORqt2meSHj8XWUW+/fJnHwCTh5qzTsIQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\SouthDakotaState.jpg" size="133464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Guo/azTMSd1OQdU6TQTIPdwUnGPJotjWgVkzBVf1nLc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\TennesseeState.jpg" size="115297">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SQw8lFmpA6T5WqQTHwb5TEONzzhMxqfz+AwIv7T7YC4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\TexasState.jpg" size="131361">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ni3PK34NqJp27g6HSepbyz3+CDvpnSaj52SMXPTFX1g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\UtahState.jpg" size="122133">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uYifNOHdEYeIlnIHtK4X8hjLNubc6DAL76bk86Aa/7M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\VermontState.jpg" size="102068">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WETzq5hicI3gsppeG6ghil4T8QOIh3QJ3MBsvO0kXIM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\VirginiaState.jpg" size="131444">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xS+NqL2+Eck7NlCGidO6/iVbn0G2a+HcvQDbUxsqwHw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\WashingtonState.jpg" size="188662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6F727jY6oytprXGX4sgiLT9/YMh7C1Rtp2X+1dzPuPo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\WestVirginiaState.jpg" size="103663">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3kcAFcQUzKiM2EmV+tZG/LOXHrw13V+oURqP6VQ1Ad0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\WisconsinState.jpg" size="139198">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bEt+6wcQPE1u6OEe7/UxJxzo8O9OJ8nCdH2r02sECtY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="State Pictures\WyomingState.jpg" size="152167">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gxyEs+ortpUPgBnrO41iQ5JPvIF3+5ecWOHQGWgNoig=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+</asmv1:assembly>

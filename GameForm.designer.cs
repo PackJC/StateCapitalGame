@@ -95,7 +95,7 @@ namespace Project5
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(45, 223);
+            this.label4.Location = new System.Drawing.Point(59, 282);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 3;
@@ -104,7 +104,7 @@ namespace Project5
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(231, 223);
+            this.label5.Location = new System.Drawing.Point(245, 282);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 13);
             this.label5.TabIndex = 4;
@@ -112,7 +112,7 @@ namespace Project5
             // 
             // NextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(20, 265);
+            this.NextButton.Location = new System.Drawing.Point(34, 324);
             this.NextButton.Name = "NextButton";
             this.NextButton.Size = new System.Drawing.Size(105, 32);
             this.NextButton.TabIndex = 5;
@@ -122,7 +122,7 @@ namespace Project5
             // 
             // EndGame
             // 
-            this.EndGame.Location = new System.Drawing.Point(196, 265);
+            this.EndGame.Location = new System.Drawing.Point(210, 324);
             this.EndGame.Name = "EndGame";
             this.EndGame.Size = new System.Drawing.Size(105, 32);
             this.EndGame.TabIndex = 6;
@@ -141,7 +141,7 @@ namespace Project5
             this.TimerBox.Multiline = false;
             this.TimerBox.Name = "TimerBox";
             this.TimerBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.TimerBox.Size = new System.Drawing.Size(45, 48);
+            this.TimerBox.Size = new System.Drawing.Size(50, 49);
             this.TimerBox.TabIndex = 9;
             this.TimerBox.Text = "";
             // 
@@ -158,7 +158,7 @@ namespace Project5
             // AttemptsBox
             // 
             this.AttemptsBox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.AttemptsBox.Location = new System.Drawing.Point(48, 239);
+            this.AttemptsBox.Location = new System.Drawing.Point(62, 298);
             this.AttemptsBox.Name = "AttemptsBox";
             this.AttemptsBox.Size = new System.Drawing.Size(39, 20);
             this.AttemptsBox.TabIndex = 11;
@@ -167,7 +167,7 @@ namespace Project5
             // CorrectBox
             // 
             this.CorrectBox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.CorrectBox.Location = new System.Drawing.Point(233, 239);
+            this.CorrectBox.Location = new System.Drawing.Point(247, 298);
             this.CorrectBox.Name = "CorrectBox";
             this.CorrectBox.Size = new System.Drawing.Size(39, 20);
             this.CorrectBox.TabIndex = 12;
@@ -179,7 +179,7 @@ namespace Project5
             this.CapitalBox.Location = new System.Drawing.Point(367, 30);
             this.CapitalBox.Name = "CapitalBox";
             this.CapitalBox.ScrollAlwaysVisible = true;
-            this.CapitalBox.Size = new System.Drawing.Size(140, 264);
+            this.CapitalBox.Size = new System.Drawing.Size(140, 329);
             this.CapitalBox.TabIndex = 13;
             this.CapitalBox.SelectedIndexChanged += new System.EventHandler(this.CapitalBox_SelectedIndexChanged);
             // 
@@ -191,9 +191,9 @@ namespace Project5
             // 
             // StatePicture
             // 
-            this.StatePicture.Location = new System.Drawing.Point(174, 65);
+            this.StatePicture.Location = new System.Drawing.Point(151, 65);
             this.StatePicture.Name = "StatePicture";
-            this.StatePicture.Size = new System.Drawing.Size(152, 155);
+            this.StatePicture.Size = new System.Drawing.Size(193, 183);
             this.StatePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.StatePicture.TabIndex = 14;
             this.StatePicture.TabStop = false;
@@ -202,7 +202,7 @@ namespace Project5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(514, 309);
+            this.ClientSize = new System.Drawing.Size(519, 372);
             this.Controls.Add(this.StatePicture);
             this.Controls.Add(this.CapitalBox);
             this.Controls.Add(this.CorrectBox);

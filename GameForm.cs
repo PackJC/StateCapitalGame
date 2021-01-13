@@ -73,7 +73,7 @@ namespace Project5
         {
             int counter = 0; //used for arrays
             String strIn = String.Empty; //string that will be coming in
-            StreamReader reader = new StreamReader(@"C:/Users/ECHO/Desktop/StateGameProject/State Data/states.txt");
+            StreamReader reader = new StreamReader(@"../../State Data/states.txt");
             while (reader.Peek() != -1)
             {
                 strIn = reader.ReadLine(); 
@@ -111,7 +111,7 @@ namespace Project5
             StateBox.Text = Game.Keys.ToList()[ran.Next(Game.Count)];
             String state = StateBox.Text.Trim();
             state = state.Replace(" ", "");
-            StatePicture.ImageLocation = @"C:/Users/ECHO/Desktop/StateGameProject/State Pictures/" + state + "State.jpg";
+            StatePicture.ImageLocation = @"../../State Pictures/" + state + "State.jpg";
             Timer.Start();  //start timer and game
         }
 
@@ -154,7 +154,7 @@ namespace Project5
             StateBox.Text = Game.Keys.ToList()[ran.Next(Game.Count)];
             String state = StateBox.Text;
             state = state.Replace(" ", "");
-            StatePicture.ImageLocation = "C:/Users/ECHO/Desktop/StateGameProject/State Pictures/" + state + "State.jpg";
+            StatePicture.ImageLocation = "../../State Pictures/" + state + "State.jpg";
             timeLeft = 15;  //reset timer
             Timer.Start();
 
